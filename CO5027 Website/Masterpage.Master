@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Masterpage.master.cs" Inherits="AR_RAFFAA_WEBSITE.Masterpage" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Wallet Shop</title>
+    <link rel="stylesheet" href="Stylesheet/StyleSheet.css" type="text/css" media="screen" runat="server"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+            <header>
+                <!---This banner and logo is created using PhotoShop cs6-->
+            <div id="banner">
+            <asp:Image ID="Image1" runat="server" ImageUrl="Images/Banner.jpg"  AlternateText="Banner"/>
+
+            </div>
+            </header>  
+
+        <nav>
+			<ul>
+                <li><a href="default.aspx">Home</a></li>
+				<li><a href="MenWallet.aspx">Men Wallet</a></li>
+                <li><a href="WomenWallet.aspx">Women Wallet</a></li>
+                <li><a href="contact.aspx">Contact</a></li>
+                <li><a href="Login.aspx">Login</a></li>
+				
+			</ul>
+		</nav>
+
+        <hr /> 
+        
+        <asp:ContentPlaceHolder ID="body" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+
+        <footer>
+        Copyright © 2017    |    AR-RAFFA COMPANY   |All Rights Reserved
+        </footer>
+
+
+    </div>
+    </form>
+</body>
+</html>
+
