@@ -94,6 +94,22 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Banner.jpg" />
+    <Content Include="Images\BOSSmen1.jpeg" />
+    <Content Include="Images\Burberry1.jpeg" />
+    <Content Include="Images\Guccimen1.jpg" />
+    <Content Include="Images\Guccimen2.jpg" />
+    <Content Include="Images\Guess1.jpg" />
+    <Content Include="Images\Hermes1.jpg" />
+    <Content Include="Images\hermesmen1.1.jpg" />
+    <Content Include="Images\hermesmen1.jpg" />
+    <Content Include="Images\homepicture.jpg" />
+    <Content Include="Images\louisvuittonmen1.jpg" />
+    <Content Include="Images\louisvuittonmen2.jpg" />
+    <Content Include="Images\LV1.jpg" />
+    <Content Include="Images\map.png" />
+    <Content Include="Images\Prada1.jpg" />
+    <Content Include="Images\VS1.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -113,6 +129,7 @@
     <Content Include="Pages\login.aspx" />
     <Content Include="Pages\menwallet.aspx" />
     <Content Include="Pages\womenwallet.aspx" />
+    <Content Include="Stylesheet\StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

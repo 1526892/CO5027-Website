@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masterpage.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="AR_RAFFAA_WEBSITE.Pages._default" %>
+﻿<%@ Page Title="WalletShop | " Language="C#" MasterPageFile="~/Masterpage.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="AR_RAFFAA_WEBSITE.Pages._default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
  
 </asp:Content>
@@ -20,10 +20,6 @@
                 <tr><asp:Image ID="Image5" runat="server" ImageURL="../Images/VS1.jpg" Width="200px" Height="200px"/></tr>
             </table>
         </div>
-
-
-
-
 
 </section>
 </asp:Content>
