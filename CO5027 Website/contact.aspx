@@ -90,7 +90,7 @@
          <h2>Find Us</h2>
          <p>Google Map</p>
             <div id ="Map">
-             <asp:Image ID="Image1" runat="server" ImageUrl="../Images/map.png" Height="403px"  Width="635px" />
+             <asp:Image ID="Image1" runat="server" ImageUrl="../Images/map.png" Height="403px"  Width="635px" alt="google map"/>
             </div>
             
         
