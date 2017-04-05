@@ -29,7 +29,7 @@ nav{
     
 }
 
-ul {
+#menu ul {
     list-style-type: none;
     margin: 0;
     padding: 10px;
@@ -41,7 +41,7 @@ ul {
     
 }
 
-li {
+#menu li {
     display:inline-block;
     padding-right: 30px;
     border-right: 1px solid #000000;
@@ -52,7 +52,7 @@ li {
 
 
 
-a:link, a:visited {
+#menu a:link, a:visited {
     display: block;
     font-weight: bold;
     color: #000000;
@@ -61,21 +61,23 @@ a:link, a:visited {
     text-decoration: none;
     text-transform: uppercase;
 }
-a:hover, a:active {
-    background-color: #6CA6CD;
+#menu a:hover, a:active {
+    background: #6CA6CD;
 
     
     
 }
 
 footer {
-    width: auto;
-    background: black;
-    color: white;
+    font-size: 12px;
     text-align: center;
-    padding: 10px;
-    display: block;
+    font-weight : bold;
+    background :black;
+	color: white;
+
 }
+
+
 
 /*contactpage css*/
 
@@ -128,13 +130,6 @@ tablecontact {
     font-size: 20px;
 }
 
-iframe {
-    width : 600px;
-    height : 450px;
-    border : 1px solid;
-    margin-left : 23em;
-
-}
 
 /*homepage css*/
 
@@ -154,5 +149,5 @@ iframe {
     text-align : center;
     margin-bottom : 3em;
     margin-left : 2em;
-   
+  
 }

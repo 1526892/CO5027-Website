@@ -1,4 +1,4 @@
-﻿<%@ Page Title="WalletShop | " Language="C#" MasterPageFile="~/Masterpage.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="AR_RAFFAA_WEBSITE.Pages._default" %>
+﻿<%@ Page Title="WalletShop | HomePage" Language="C#" MasterPageFile="~/Masterpage.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="AR_RAFFAA_WEBSITE.Pages._default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
  
 </asp:Content>

@@ -20,7 +20,7 @@
             </div>
             </header>  
 
-        <nav>
+        <nav id ="menu">
 			<ul>
                 <li><a href="default.aspx">Home</a></li>
 				<li><a href="MenWallet.aspx">Men Wallet</a></li>
@@ -39,7 +39,13 @@
         
 
         <footer>
-        Copyright © 2017    |    AR-RAFFA COMPANY   |All Rights Reserved
+       Copyright © 2017    |    AR-RAFFAA COMPANY   |All Rights Reserved<br />
+        
+
+        
+        <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a> | 
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+         
         </footer>
 
 

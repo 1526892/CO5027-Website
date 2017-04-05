@@ -124,11 +124,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Pages\contact.aspx" />
-    <Content Include="Pages\default.aspx" />
-    <Content Include="Pages\login.aspx" />
-    <Content Include="Pages\menwallet.aspx" />
-    <Content Include="Pages\womenwallet.aspx" />
+    <Content Include="contact.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="menwallet.aspx" />
+    <Content Include="womenwallet.aspx" />
     <Content Include="Stylesheet\StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -143,39 +143,39 @@
     <Compile Include="Masterpage.Master.designer.cs">
       <DependentUpon>Masterpage.Master</DependentUpon>
     </Compile>
-    <Compile Include="Pages\contact.aspx.cs">
+    <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\contact.aspx.designer.cs">
+    <Compile Include="contact.aspx.designer.cs">
       <DependentUpon>contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\default.aspx.cs">
+    <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\default.aspx.designer.cs">
+    <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\login.aspx.cs">
+    <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\login.aspx.designer.cs">
+    <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\menwallet.aspx.cs">
+    <Compile Include="menwallet.aspx.cs">
       <DependentUpon>menwallet.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\menwallet.aspx.designer.cs">
+    <Compile Include="menwallet.aspx.designer.cs">
       <DependentUpon>menwallet.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\womenwallet.aspx.cs">
+    <Compile Include="womenwallet.aspx.cs">
       <DependentUpon>womenwallet.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\womenwallet.aspx.designer.cs">
+    <Compile Include="womenwallet.aspx.designer.cs">
       <DependentUpon>womenwallet.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
