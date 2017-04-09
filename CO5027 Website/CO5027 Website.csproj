@@ -128,6 +128,7 @@
     <Content Include="default.aspx" />
     <Content Include="login.aspx" />
     <Content Include="menwallet.aspx" />
+    <Content Include="register.aspx" />
     <Content Include="womenwallet.aspx" />
     <Content Include="Stylesheet\StyleSheet.css" />
     <Content Include="Web.config" />
@@ -170,6 +171,13 @@
     </Compile>
     <Compile Include="menwallet.aspx.designer.cs">
       <DependentUpon>menwallet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
     </Compile>
     <Compile Include="womenwallet.aspx.cs">
       <DependentUpon>womenwallet.aspx</DependentUpon>

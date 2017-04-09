@@ -56,7 +56,7 @@ nav{
     display: block;
     font-weight: bold;
     color: #000000;
-    background-color: #ffffff;
+    
     padding: 10px;
     text-decoration: none;
     text-transform: uppercase;
@@ -69,12 +69,13 @@ nav{
 }
 
 footer {
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
     font-weight : bold;
-    background :black;
-	color: white;
-
+    margin-bottom : 3em;
+    background-color:#357ec7;
+    color : white;
+    padding : 20px;
 }
 
 
@@ -103,7 +104,7 @@ h1{
 }
 
 h2{
-    margin-left : 14em;
+    margin-left : 18em;
     margin-bottom : 1em;;
     margin-top : 3em;
     text-decoration : underline;
@@ -115,7 +116,7 @@ h3{
 }
 
 p{
-    margin-left : 18em;
+    margin-left : 22em;
     margin-bottom : 10px;
     font-size : 20px;
 }
@@ -140,9 +141,10 @@ tablecontact {
 
 }
 
-#pictures{
+.pictures{
     margin-bottom :3em;
-    text-align :center;  
+    position : center;
+    margin-left: 15em;
 }
 
 #Map{
@@ -150,4 +152,38 @@ tablecontact {
     margin-bottom : 3em;
     margin-left : 2em;
   
+}
+
+/*LOGIN FORM*/
+
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    position :center;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #808080;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    font-weight : bold;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Add padding to login */
+.login {
+    padding: 16px;
+    text-align :center;   
 }
