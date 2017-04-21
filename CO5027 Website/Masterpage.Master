@@ -4,6 +4,7 @@
 <html>
 <head runat="server">
     <title>Wallet Shop</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>﻿
     <link rel="stylesheet" href="Stylesheet/StyleSheet.css" type="text/css" media="screen" runat="server"/>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -26,13 +27,18 @@
 				<li><a href="MenWallet.aspx">Men Wallet</a></li>
                 <li><a href="WomenWallet.aspx">Women Wallet</a></li>
                 <li><a href="contact.aspx">Contact</a></li>
-                <li><a href="Login.aspx">Login</a></li>
+                <li><a href="shoppingcart.aspx">Shopping Cart</a></li>
 				
 			</ul>
 		</nav>
 
         <hr /> 
-        
+
+        <div class ="loginlogout">
+        <a href="Login.aspx">Login</a> |
+        <a href="Register.aspx">Register</a>
+        </div>
+
         <asp:ContentPlaceHolder ID="body" runat="server">
         
         </asp:ContentPlaceHolder>
@@ -41,10 +47,11 @@
         <footer>
        Copyright © 2017    |    AR-RAFFAA COMPANY   |All Rights Reserved
             <br />
+            <br />
            
-        <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> | 
-        <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a> |
-        <a href="#">Admin</a>
+        <a href="https://validator.w3.org/check?uri=referer"><b>Validate HTML</b></a> | 
+        <a href="http://jigsaw.w3.org/css-validator/check/referer"><b>Validate CSS</b></a> |
+        <a href="admin.aspx"><b>Admin</b></a>
             
          
         </footer>
