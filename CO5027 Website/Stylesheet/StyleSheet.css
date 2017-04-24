@@ -56,7 +56,6 @@ nav{
     display: block;
     font-weight: bold;
     color: #000000;
-    
     padding: 10px;
     text-decoration: none;
     text-transform: uppercase;
@@ -113,7 +112,7 @@ footer a:hover {
 }
 
 .textbox{
-    width : 8em;
+    width : 10em;
     float :left;
     padding-top: 1em;
    
@@ -139,9 +138,9 @@ h3{
 }
 
 p{
-    margin-left : 14em;
+    margin-left : 16em;
     margin-bottom : 10px;
-    font-size : 20px;
+    font-size : 18px;
 }
 
 
@@ -154,7 +153,7 @@ tablecontact {
 
 #contactbutton{
     font-size: 20px;
-     background-color: #808080;
+    background-color: #808080;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -163,6 +162,23 @@ tablecontact {
     width: 15%;
     font-weight : bold;
     margin-right: 10em;
+}
+
+.textbox{
+    font-weight : bold;
+    font-size : 18px;
+}
+
+.label {
+    margin-top : 1em;
+    font-weight :bold;
+    font-size: 22px;
+}
+
+.lblmsg{
+    font-weight : bold;
+    font-size : 20px;
+    margin-left : 13em;
 }
 
 
@@ -182,9 +198,11 @@ tablecontact {
 }
 
 #Map{
-    text-align : center;
-    margin-bottom : 3em;
-    margin-left : 2em;
+    height : 500px;
+    width : 60%;
+    margin-left :18em;
+    margin-bottom :2em;
+    margin-top :10px;
   
 }
 
@@ -215,8 +233,26 @@ button {
     font-weight : bold;
 }
 
+.button {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 17%;
+    font-weight : bold;
+    margin-left :33em;
+    
+}
+
 /* Add a hover effect for buttons */
 button:hover {
+    opacity: 0.8;
+
+}
+
+.button:hover {
     opacity: 0.8;
 
 }
@@ -236,7 +272,9 @@ button:hover {
 .register {
     margin-bottom : 2em;
     margin-top : 1em;
-    margin-left :27em;
+    margin-left :17em;
+    width : 100em;
+
 }
 
 .labellogin {

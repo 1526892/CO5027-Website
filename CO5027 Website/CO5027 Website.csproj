@@ -121,6 +121,7 @@
     <Content Include="Images\map.png" />
     <Content Include="Images\Prada1.jpg" />
     <Content Include="Images\VS1.jpg" />
+    <Content Include="JavaScript\Map.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

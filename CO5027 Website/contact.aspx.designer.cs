@@ -13,6 +13,15 @@ namespace AR_RAFFAA_WEBSITE.Pages {
     public partial class contact {
         
         /// <summary>
+        /// lblmsg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblmsg;
+        
+        /// <summary>
         /// lblUsername control.
         /// </summary>
         /// <remarks>
@@ -31,13 +40,13 @@ namespace AR_RAFFAA_WEBSITE.Pages {
         protected global::System.Web.UI.WebControls.TextBox txtUsername;
         
         /// <summary>
-        /// RequiredFieldValidator1 control.
+        /// RFVtxtUsername control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RFVtxtUsername;
         
         /// <summary>
         /// lblPhone control.
@@ -58,13 +67,13 @@ namespace AR_RAFFAA_WEBSITE.Pages {
         protected global::System.Web.UI.WebControls.TextBox txtPhone;
         
         /// <summary>
-        /// RequiredFieldValidator2 control.
+        /// RFVtxtPhone control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RFVtxtPhone;
         
         /// <summary>
         /// lblEmail control.
@@ -85,22 +94,22 @@ namespace AR_RAFFAA_WEBSITE.Pages {
         protected global::System.Web.UI.WebControls.TextBox txtEmail;
         
         /// <summary>
-        /// RequiredFieldValidator3 control.
+        /// RFVtxtEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RFVtxtEmail;
         
         /// <summary>
-        /// RegularExpressionValidator1 control.
+        /// txtEmailvalidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator txtEmailvalidator;
         
         /// <summary>
         /// lblSubject control.
@@ -121,13 +130,13 @@ namespace AR_RAFFAA_WEBSITE.Pages {
         protected global::System.Web.UI.WebControls.TextBox txtSubject;
         
         /// <summary>
-        /// RequiredFieldValidator4 control.
+        /// RFVtxtSubject control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RFVtxtSubject;
         
         /// <summary>
         /// lblMessage control.
@@ -148,13 +157,13 @@ namespace AR_RAFFAA_WEBSITE.Pages {
         protected global::System.Web.UI.WebControls.TextBox txtMessageBody;
         
         /// <summary>
-        /// RequiredFieldValidator5 control.
+        /// RFVtxtMessageBody control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator5;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RFVtxtMessageBody;
         
         /// <summary>
         /// btnSend control.
@@ -166,12 +175,12 @@ namespace AR_RAFFAA_WEBSITE.Pages {
         protected global::System.Web.UI.WebControls.Button btnSend;
         
         /// <summary>
-        /// Image1 control.
+        /// ValidationSummary1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
+        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
     }
 }
